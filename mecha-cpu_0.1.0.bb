@@ -8,10 +8,10 @@ inherit cargo
 # how to get mecha-cpu could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/mecha-cpu/0.1.0"
 SRC_URI += "git://github.com/Dhruvesh08/mecha-cpu.git;protocol=https;nobranch=1;branch=main"
-SRCREV = "8a1271e3e3005b21a7c7511399c23386cf8083dc"
+SRCREV = "1cffe56b72e0d6f8298799f35952f97f1d8f86c8"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV:append = ".AUTOINC+8a1271e3e3"
+PV:append = ".AUTOINC+1cffe56b72"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
